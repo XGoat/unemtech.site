@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+
+body {
+    font-family: 'Smooch Sans';
+    margin: 0;
+
+}
+
+.hero-bg {
+    background: #A9AAAA url('../images/bg.jpg');
+    color: white;
+    text-align: center;
+    padding-top: 10em;
+}
+
+header {
+    padding: 1em 5em 5em 5em;
+}
+
+.hero-bg a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+section {
+    margin: 0 1em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0 0 1.2em;
+}
+
+h1{
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 1;
+}
+
+h1 span::before{
+    content: '';
+    position: absolute;
+    width: 3em;
+    background:rgb(5, 109, 228);
+    height: .4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.3em;
+}
